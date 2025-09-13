@@ -1,5 +1,5 @@
 # Ignore data files and sensitive files
-data/
+data/qa_merged_50.jsonl
 .env
 *.pyc
 __pycache__/
