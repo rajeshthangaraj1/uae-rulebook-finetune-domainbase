@@ -156,8 +156,8 @@ max_steps = 60
 ```
 uae_bank_rulebook_finetune_domainbase/
 ├── data/
-│   ├── qa_merged_50.jsonl          # Generated Q&A dataset (44MB)
-│   └── qa_merged_50.zip            # Compressed dataset (8.8MB)
+│   ├── qa_merged_50.zip          # Compressed dataset (8.8MB)
+│   
 ├── main.py                         # Gradio web interface
 ├── qa_generate_using_llm.py        # Data generation script
 ├── push_json_to_huggingface.py     # Data upload script
@@ -275,7 +275,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For questions, issues, or contributions:
 
 - Create an issue in the GitHub repository
-- Contact: [your-email@domain.com]
+- Contact: [rajeshthangaraj1@gmail.com]
 - Documentation: [Link to detailed docs]
 
 ## 🔗 Links
