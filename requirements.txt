@@ -1,0 +1,7 @@
+pandas
+datasets
+transformers
+bitsandbytes
+accelerate
+python-dotenv
+

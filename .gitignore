@@ -1,0 +1,5 @@
+# Ignore data files and sensitive files
+data/
+.env
+*.pyc
+__pycache__/
