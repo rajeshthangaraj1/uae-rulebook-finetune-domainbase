@@ -1,6 +1,6 @@
 ﻿# UAE Central Bank Rulebook QA Assistant
 
- <img width="300" height="500" alt="RegulaUAE-1 2B" src="https://github.com/user-attachments/assets/9edad7e4-21ce-443e-926d-580f6617958e" />
+ <img align="center" width="500" height="700" alt="RegulaUAE-1 2B" src="https://github.com/user-attachments/assets/9edad7e4-21ce-443e-926d-580f6617958e" />
 
 
 A specialized AI assistant fine-tuned on UAE Central Bank regulations and rulebook content, capable of answering complex banking and regulatory questions with high accuracy and domain-specific knowledge.
