@@ -49,8 +49,8 @@ Data Generation → Model Training → Deployment
 
 ## 📊 Dataset Statistics
 
-- **Total Q&A Pairs**: 168,711
-- **Dataset Size**: 44MB (JSONL format)
+- **Total Q&A Pairs**: 500K
+- **Dataset Size**: 60MB (JSONL format)
 - **Source**: UAE Central Bank rulebook content
 - **Processing**: 500-character text chunks
 - **Quality**: Context-aware, domain-specific questions
@@ -110,7 +110,7 @@ python push_json_to_huggingface.py
 
 Open and run the Jupyter notebook:
 ```bash
-jupyter notebook Fintune_Liquid_LFM2_(1_2B) (1).ipynb
+jupyter notebook Fintune_Liquid_LFM2_(1_2B).ipynb
 ```
 
 #### 4. Deploy the Model
@@ -159,12 +159,12 @@ max_steps = 60
 ```
 uae_bank_rulebook_finetune_domainbase/
 ├── data/
-│   ├── qa_merged_50.zip          # Compressed dataset (8.8MB)
+│   ├── qa_merged_final.zip          # Compressed dataset (8.8MB)
 │   
 ├── main.py                         # Gradio web interface
 ├── qa_generate_using_llm.py        # Data generation script
 ├── push_json_to_huggingface.py     # Data upload script
-├── Fintune_Liquid_LFM2_(1_2B) (1).ipynb  # Training notebook
+├── Fintune_Liquid_LFM2_(1_2B).ipynb  # Training notebook
 ├── requirements.txt                # Python dependencies
 └── README.md                       # This file
 ```
@@ -283,6 +283,7 @@ For questions, issues, or contributions:
 
 ## 🔗 Links
 
+- **Demo Url**: [rajeshthangaraj1/uae_rule_book_QA_assistant](https://huggingface.co/spaces/rajeshthangaraj1/uae_rule_book_QA_assistant)
 - **Model on HuggingFace**: [rajeshthangaraj1/uae_rule_book_QA_assistant](https://huggingface.co/rajeshthangaraj1/uae_rule_book_QA_assistant)
 - **Dataset**: [rajeshthangaraj1/uae-banking-rulebook-qa](https://huggingface.co/datasets/rajeshthangaraj1/uae-banking-rulebook-qa)
 - **Unsloth Documentation**: [https://docs.unsloth.ai/](https://docs.unsloth.ai/)
